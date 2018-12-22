@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26CB0A2E21CEC48F00686AA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CB0A2D21CEC48F00686AA9 /* AppDelegate.swift */; };
+		26CB0A3021CEC48F00686AA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CB0A2F21CEC48F00686AA9 /* ViewController.swift */; };
+		26CB0A3321CEC48F00686AA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CB0A3121CEC48F00686AA9 /* Main.storyboard */; };
+		26CB0A3521CEC49000686AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CB0A3421CEC49000686AA9 /* Assets.xcassets */; };
+		26CB0A3821CEC49000686AA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CB0A3621CEC49000686AA9 /* LaunchScreen.storyboard */; };
+		26CB0A4321CEC49000686AA9 /* Dog_Breed_IdentifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CB0A4221CEC49000686AA9 /* Dog_Breed_IdentifierTests.swift */; };
+		26CB0A4E21CEC49000686AA9 /* Dog_Breed_IdentifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CB0A4D21CEC49000686AA9 /* Dog_Breed_IdentifierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26CB0A3F21CEC49000686AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26CB0A2221CEC48F00686AA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26CB0A2921CEC48F00686AA9;
+			remoteInfo = "Dog Breed Identifier";
+		};
+		26CB0A4A21CEC49000686AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26CB0A2221CEC48F00686AA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26CB0A2921CEC48F00686AA9;
+			remoteInfo = "Dog Breed Identifier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26CB0A2A21CEC48F00686AA9 /* Dog Breed Identifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog Breed Identifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CB0A2D21CEC48F00686AA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26CB0A2F21CEC48F00686AA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26CB0A3221CEC48F00686AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26CB0A3421CEC49000686AA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26CB0A3721CEC49000686AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26CB0A3921CEC49000686AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26CB0A3E21CEC49000686AA9 /* Dog Breed IdentifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog Breed IdentifierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CB0A4221CEC49000686AA9 /* Dog_Breed_IdentifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog_Breed_IdentifierTests.swift; sourceTree = "<group>"; };
+		26CB0A4421CEC49000686AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26CB0A4921CEC49000686AA9 /* Dog Breed IdentifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog Breed IdentifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CB0A4D21CEC49000686AA9 /* Dog_Breed_IdentifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog_Breed_IdentifierUITests.swift; sourceTree = "<group>"; };
+		26CB0A4F21CEC49000686AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26CB0A2721CEC48F00686AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB0A3B21CEC49000686AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB0A4621CEC49000686AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26CB0A2121CEC48F00686AA9 = {
+			isa = PBXGroup;
+			children = (
+				26CB0A2C21CEC48F00686AA9 /* Dog Breed Identifier */,
+				26CB0A4121CEC49000686AA9 /* Dog Breed IdentifierTests */,
+				26CB0A4C21CEC49000686AA9 /* Dog Breed IdentifierUITests */,
+				26CB0A2B21CEC48F00686AA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26CB0A2B21CEC48F00686AA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26CB0A2A21CEC48F00686AA9 /* Dog Breed Identifier.app */,
+				26CB0A3E21CEC49000686AA9 /* Dog Breed IdentifierTests.xctest */,
+				26CB0A4921CEC49000686AA9 /* Dog Breed IdentifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26CB0A2C21CEC48F00686AA9 /* Dog Breed Identifier */ = {
+			isa = PBXGroup;
+			children = (
+				26CB0A2D21CEC48F00686AA9 /* AppDelegate.swift */,
+				26CB0A2F21CEC48F00686AA9 /* ViewController.swift */,
+				26CB0A3121CEC48F00686AA9 /* Main.storyboard */,
+				26CB0A3421CEC49000686AA9 /* Assets.xcassets */,
+				26CB0A3621CEC49000686AA9 /* LaunchScreen.storyboard */,
+				26CB0A3921CEC49000686AA9 /* Info.plist */,
+			);
+			path = "Dog Breed Identifier";
+			sourceTree = "<group>";
+		};
+		26CB0A4121CEC49000686AA9 /* Dog Breed IdentifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				26CB0A4221CEC49000686AA9 /* Dog_Breed_IdentifierTests.swift */,
+				26CB0A4421CEC49000686AA9 /* Info.plist */,
+			);
+			path = "Dog Breed IdentifierTests";
+			sourceTree = "<group>";
+		};
+		26CB0A4C21CEC49000686AA9 /* Dog Breed IdentifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26CB0A4D21CEC49000686AA9 /* Dog_Breed_IdentifierUITests.swift */,
+				26CB0A4F21CEC49000686AA9 /* Info.plist */,
+			);
+			path = "Dog Breed IdentifierUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26CB0A2921CEC48F00686AA9 /* Dog Breed Identifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26CB0A5221CEC49000686AA9 /* Build configuration list for PBXNativeTarget "Dog Breed Identifier" */;
+			buildPhases = (
+				26CB0A2621CEC48F00686AA9 /* Sources */,
+				26CB0A2721CEC48F00686AA9 /* Frameworks */,
+				26CB0A2821CEC48F00686AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dog Breed Identifier";
+			productName = "Dog Breed Identifier";
+			productReference = 26CB0A2A21CEC48F00686AA9 /* Dog Breed Identifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26CB0A3D21CEC49000686AA9 /* Dog Breed IdentifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26CB0A5521CEC49000686AA9 /* Build configuration list for PBXNativeTarget "Dog Breed IdentifierTests" */;
+			buildPhases = (
+				26CB0A3A21CEC49000686AA9 /* Sources */,
+				26CB0A3B21CEC49000686AA9 /* Frameworks */,
+				26CB0A3C21CEC49000686AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26CB0A4021CEC49000686AA9 /* PBXTargetDependency */,
+			);
+			name = "Dog Breed IdentifierTests";
+			productName = "Dog Breed IdentifierTests";
+			productReference = 26CB0A3E21CEC49000686AA9 /* Dog Breed IdentifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26CB0A4821CEC49000686AA9 /* Dog Breed IdentifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26CB0A5821CEC49000686AA9 /* Build configuration list for PBXNativeTarget "Dog Breed IdentifierUITests" */;
+			buildPhases = (
+				26CB0A4521CEC49000686AA9 /* Sources */,
+				26CB0A4621CEC49000686AA9 /* Frameworks */,
+				26CB0A4721CEC49000686AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26CB0A4B21CEC49000686AA9 /* PBXTargetDependency */,
+			);
+			name = "Dog Breed IdentifierUITests";
+			productName = "Dog Breed IdentifierUITests";
+			productReference = 26CB0A4921CEC49000686AA9 /* Dog Breed IdentifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26CB0A2221CEC48F00686AA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = com.gentry.adbi;
+				TargetAttributes = {
+					26CB0A2921CEC48F00686AA9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					26CB0A3D21CEC49000686AA9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 26CB0A2921CEC48F00686AA9;
+					};
+					26CB0A4821CEC49000686AA9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 26CB0A2921CEC48F00686AA9;
+					};
+				};
+			};
+			buildConfigurationList = 26CB0A2521CEC48F00686AA9 /* Build configuration list for PBXProject "Dog Breed Identifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26CB0A2121CEC48F00686AA9;
+			productRefGroup = 26CB0A2B21CEC48F00686AA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26CB0A2921CEC48F00686AA9 /* Dog Breed Identifier */,
+				26CB0A3D21CEC49000686AA9 /* Dog Breed IdentifierTests */,
+				26CB0A4821CEC49000686AA9 /* Dog Breed IdentifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26CB0A2821CEC48F00686AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CB0A3821CEC49000686AA9 /* LaunchScreen.storyboard in Resources */,
+				26CB0A3521CEC49000686AA9 /* Assets.xcassets in Resources */,
+				26CB0A3321CEC48F00686AA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB0A3C21CEC49000686AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB0A4721CEC49000686AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26CB0A2621CEC48F00686AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CB0A3021CEC48F00686AA9 /* ViewController.swift in Sources */,
+				26CB0A2E21CEC48F00686AA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB0A3A21CEC49000686AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CB0A4321CEC49000686AA9 /* Dog_Breed_IdentifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CB0A4521CEC49000686AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CB0A4E21CEC49000686AA9 /* Dog_Breed_IdentifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26CB0A4021CEC49000686AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26CB0A2921CEC48F00686AA9 /* Dog Breed Identifier */;
+			targetProxy = 26CB0A3F21CEC49000686AA9 /* PBXContainerItemProxy */;
+		};
+		26CB0A4B21CEC49000686AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26CB0A2921CEC48F00686AA9 /* Dog Breed Identifier */;
+			targetProxy = 26CB0A4A21CEC49000686AA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26CB0A3121CEC48F00686AA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26CB0A3221CEC48F00686AA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26CB0A3621CEC49000686AA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26CB0A3721CEC49000686AA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26CB0A5021CEC49000686AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26CB0A5121CEC49000686AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26CB0A5321CEC49000686AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYQDSB28ZX;
+				INFOPLIST_FILE = "Dog Breed Identifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach.Dog-Breed-Identifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26CB0A5421CEC49000686AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYQDSB28ZX;
+				INFOPLIST_FILE = "Dog Breed Identifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach.Dog-Breed-Identifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26CB0A5621CEC49000686AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYQDSB28ZX;
+				INFOPLIST_FILE = "Dog Breed IdentifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach.Dog-Breed-IdentifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dog Breed Identifier.app/Dog Breed Identifier";
+			};
+			name = Debug;
+		};
+		26CB0A5721CEC49000686AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYQDSB28ZX;
+				INFOPLIST_FILE = "Dog Breed IdentifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach.Dog-Breed-IdentifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dog Breed Identifier.app/Dog Breed Identifier";
+			};
+			name = Release;
+		};
+		26CB0A5921CEC49000686AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYQDSB28ZX;
+				INFOPLIST_FILE = "Dog Breed IdentifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach.Dog-Breed-IdentifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dog Breed Identifier";
+			};
+			name = Debug;
+		};
+		26CB0A5A21CEC49000686AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYQDSB28ZX;
+				INFOPLIST_FILE = "Dog Breed IdentifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach.Dog-Breed-IdentifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dog Breed Identifier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26CB0A2521CEC48F00686AA9 /* Build configuration list for PBXProject "Dog Breed Identifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CB0A5021CEC49000686AA9 /* Debug */,
+				26CB0A5121CEC49000686AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26CB0A5221CEC49000686AA9 /* Build configuration list for PBXNativeTarget "Dog Breed Identifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CB0A5321CEC49000686AA9 /* Debug */,
+				26CB0A5421CEC49000686AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26CB0A5521CEC49000686AA9 /* Build configuration list for PBXNativeTarget "Dog Breed IdentifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CB0A5621CEC49000686AA9 /* Debug */,
+				26CB0A5721CEC49000686AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26CB0A5821CEC49000686AA9 /* Build configuration list for PBXNativeTarget "Dog Breed IdentifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CB0A5921CEC49000686AA9 /* Debug */,
+				26CB0A5A21CEC49000686AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26CB0A2221CEC48F00686AA9 /* Project object */;
+}
